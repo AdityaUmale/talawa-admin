@@ -208,7 +208,7 @@ function app(): JSX.Element {
                 element={<EventManagement />}
               />
             </Route>
-          </Route>
+          
         </Route>
         {/* <SecuredRouteForUser path="/user/chat" component={Chat} /> */}
         <Route path="*" element={<PageNotFound />} />
